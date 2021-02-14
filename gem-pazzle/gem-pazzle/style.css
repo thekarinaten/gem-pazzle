@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cell {
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #db3000;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Roboto', 'Georgia', 'Times New Roman', sans-serif;
+  font-size: 35px;
+  height: 100px;
+  justify-content: center;
+  position: absolute;
+  transition: all 0.3s;
+  width: 100px;
+}
+
+.field {
+  background-color: #483bff;
+  border: 1px solid #483bff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 5px blue;
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
